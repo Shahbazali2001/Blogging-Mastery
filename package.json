@@ -19,6 +19,7 @@
   "author": "Shahbaz Ali",
   "license": "MIT",
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "sass": "^1.72.0"
   }
 }
