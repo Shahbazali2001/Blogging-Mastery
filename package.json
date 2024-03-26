@@ -4,7 +4,7 @@
   "description": "Blogging Mastery website using bootstrap 5 with SAAS.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass:build": "sass scss:css"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
     "SAAS"
   ],
   "author": "Shahbaz Ali",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.72.0"
+  }
 }
