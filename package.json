@@ -19,6 +19,7 @@
   "author": "Shahbaz Ali",
   "license": "MIT",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
     "bootstrap": "^5.3.3",
     "sass": "^1.72.0"
   }
