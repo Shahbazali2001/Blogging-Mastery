@@ -4,7 +4,8 @@
   "description": "Blogging Mastery website using bootstrap 5 with SAAS.",
   "main": "index.js",
   "scripts": {
-    "sass:build": "sass scss:css"
+    "sass:build": "sass scss:css",
+    "sass:watch": "sass scss:css --watch"
   },
   "repository": {
     "type": "git",
