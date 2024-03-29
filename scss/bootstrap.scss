@@ -6,6 +6,41 @@ $secondary: #10bcee ;
 $dark: #2b3041 ;
 $light: #f3f6f9 ;
 
+//Navbar
+$navbar-padding-y: 1rem;
+$navbar-dark-color: #fff;
+$navbar-dark-hover-color: $secondary;
+
+// Navbar Togller Button 
+$navbar-toggler-border-radius: 5px;
+
+
+
+
+//Buttons
+$button-radius: 50px;
+$button-padding-y: 30px;
+$button-padding-x: 10px;
+
+$btn-border-radius: $button-radius;
+$btn-border-radius-lg: $button-radius;
+$btn-border-radius-sm: $button-radius;
+
+$btn-padding-x: $button-padding-x;
+$btn-padding-x-sm: $button-padding-x;
+$btn-padding-x-lg: $button-padding-x;
+
+$btn-padding-y: $button-padding-y;
+$btn-padding-y-sm: $button-padding-y;
+$btn-padding-y-lg: $button-padding-y;
+
+
+
+
+
+
+
+
 
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
