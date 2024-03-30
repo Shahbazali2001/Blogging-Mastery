@@ -17,6 +17,7 @@ $navbar-toggler-border-radius: 5px;
 
 
 
+
 //Buttons
 $button-radius: 50px;
 $button-padding-y: 30px;
@@ -49,7 +50,8 @@ $spacers: (
     8: $spacer * 12,
 ) !default;
 
-
+$line-height-base: 1.7;
+$headings-margin-bottom: $spacer * 1;
 
 
 

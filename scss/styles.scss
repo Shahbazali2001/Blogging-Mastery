@@ -2,7 +2,24 @@
     color: var(--bs-dark);
 }
 
+
+// Hero Button
+
+.d-grid .btn {
+    height: 50px;
+    width: 100%;
+    padding: 4px 8px 4px 8px;     
+}
+
 .header {
     background: url(../images/header-background.jpg) center center no-repeat;
     background-size: cover;
+}
+
+@media (max-width: 1000px) {
+    .hero .image-container {
+        display: flex;
+        justify-content: center;
+    }
+    
 }
