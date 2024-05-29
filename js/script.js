@@ -1,23 +1,15 @@
-/*
-const scrollEffect = () => {
-    const navbar = document.querySelector('navbar');
-    navbar.classList.toggle("sticky", window.scrollY > 0);
-}
-*/
-const userScroll() {
-
-    const navbar = document.querySelector('navbar');
+function userScroll() {
+    const navbar = document.querySelector('.navbar');
     window.addEventListener('scroll', () => {
-        if(window.scrollY)
-        {
+        if (window.scrollY > 0) {
             navbar.classList.add('bg-dark');
+            navbar.classList.add('navbar-sticky');
+        } else {
+            navbar.classList.remove('bg-dark'); 
+            navbar.classList.remove('navbar-sticky');
+           
         }
-        else
-        {
-            navbar.classList.remove('bg-dark');
-        }
-});
-
+    });
 }
 
 document.addEventListener('DOMContentLoaded', userScroll);
