@@ -11,29 +11,20 @@ $navbar-padding-y: 1rem;
 $navbar-dark-color: #fff;
 $navbar-dark-hover-color: $secondary;
 
-// Navbar Togller Button 
-$navbar-toggler-border-radius: 5px;
-
-
-
-
-
 //Buttons
 $button-radius: 50px;
 $button-padding-y: 30px;
 $button-padding-x: 10px;
-
 $btn-border-radius: $button-radius;
-$btn-border-radius-lg: $button-radius;
 $btn-border-radius-sm: $button-radius;
-
+$btn-border-radius-lg: $button-radius;
 $btn-padding-x: $button-padding-x;
 $btn-padding-x-sm: $button-padding-x;
 $btn-padding-x-lg: $button-padding-x;
-
 $btn-padding-y: $button-padding-y;
 $btn-padding-y-sm: $button-padding-y;
 $btn-padding-y-lg: $button-padding-y;
+$navbar-toggler-border-radius: 5px;
 
 // Spacers
 
@@ -52,6 +43,8 @@ $spacers: (
 
 $line-height-base: 1.7;
 $headings-margin-bottom: $spacer * 1;
+
+$enable-negative-margins: true;
 
 
 
