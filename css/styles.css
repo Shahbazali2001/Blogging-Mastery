@@ -3,12 +3,12 @@
 }
 
 .navbar {
-  transform: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .navbar-sticky {
   opacity: 0.9;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .header {
@@ -21,14 +21,14 @@
 }
 
 .download {
-  background: url(../images/download-background.jpg) center center no-repeat;
+  background: url("../images/download-background.jpg") center center no-repeat;
   background-size: cover;
 }
 
-.map ifram {
+.map iframe {
   left: 0;
   top: 0;
-  height: 400%;
+  height: 400px;
   width: 100%;
   border: none;
 }
@@ -45,5 +45,3 @@
     text-align: center;
   }
 }
-
-/*# sourceMappingURL=styles.css.map */

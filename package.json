@@ -1,26 +1,17 @@
 {
-  "name": "blogging-mastery",
+  "name": "bs5-simple-starter",
   "version": "1.0.0",
-  "description": "Blogging Mastery website using bootstrap 5 with SAAS.",
+  "description": "Simple workflow for working with and customizing Bootstrap 5",
   "main": "index.js",
   "scripts": {
-    "sass:build": "sass scss:css",
-    "sass:watch": "sass scss:css --watch"
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css"
   },
-  "repository": {
-    "type": "git",
-    "url": "Blogging Mastery"
-  },
-  "keywords": [
-    "Bootstap",
-    "5",
-    "SAAS"
-  ],
-  "author": "Shahbaz Ali",
+  "author": "Brad Traversy",
   "license": "MIT",
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.5.1",
-    "bootstrap": "^5.3.3",
-    "sass": "^1.72.0"
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "bootstrap": "^5.2.3",
+    "sass": "^1.62.0"
   }
 }
